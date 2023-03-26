@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.4em;
+}
+div {
+    display: block;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+p{
+    margin: 0;
+    font-weight: 500;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.header {
+    padding-top: 60px;
+}
+.header-text {
+    font-size: 18px;
+    margin: 30px 0px;
+    width: 423px;
+}
+section {
+    padding-top: 120px;
+}
+.logo {
+    padding: 0;
+    display: flex;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer{
+    width: 465px;
+}
+.base {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.basic-container {
+    margin: 70px auto 0 auto;
+    flex-direction: column;
+    display: flex;
+    width: 710px;
+    gap: 41px;
+}
+.basic-subtitle {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+.button { 
+    background: #FF6861;
+    border-radius: 100px;
+    color: white;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: 700;
+    display: block;
+    width: 218px;
+    transition: all 0.5 ease;
+} 
+.button:hover{
+    background: #dceb0c;
+    color: black;
+}
+.discription-text {
+    margin: 24px 0 24px 0;
+    word-break: inherit;
+    width: 371px;
+}
+.section-wrapper {
+    width: 475px;
+}
+.background {
+    background: linear-gradient(102deg, #ecdcb4 17.38%, #e47e7a 81.25%);
+    border-radius: 60px;
+    display: flex;
+    padding: 93px 168px 89px 122px;
+    align-items: center;
+    
+}
+.description-title-end{
+    text-align: left;
+}
+.ladybag {
+    margin-left: 100px;
+}
+.end {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
